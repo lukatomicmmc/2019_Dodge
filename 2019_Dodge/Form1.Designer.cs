@@ -93,7 +93,7 @@
             this.lblScore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblScore.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.ForeColor = System.Drawing.Color.White;
-            this.lblScore.Location = new System.Drawing.Point(536, 340);
+            this.lblScore.Location = new System.Drawing.Point(566, 340);
             this.lblScore.Name = "lblScore";
             this.lblScore.Size = new System.Drawing.Size(47, 30);
             this.lblScore.TabIndex = 1;
@@ -186,9 +186,9 @@
             this.lblScoreLevel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblScoreLevel.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScoreLevel.ForeColor = System.Drawing.Color.White;
-            this.lblScoreLevel.Location = new System.Drawing.Point(506, 340);
+            this.lblScoreLevel.Location = new System.Drawing.Point(513, 340);
             this.lblScoreLevel.Name = "lblScoreLevel";
-            this.lblScoreLevel.Size = new System.Drawing.Size(32, 30);
+            this.lblScoreLevel.Size = new System.Drawing.Size(54, 30);
             this.lblScoreLevel.TabIndex = 2;
             this.lblScoreLevel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
