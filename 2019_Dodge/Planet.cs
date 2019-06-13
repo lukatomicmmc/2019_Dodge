@@ -18,7 +18,7 @@ namespace _2019_Dodge
         //Create a constructor (initialises the values of the fields)
         public Planet(int spacing)
         {
-//yeet
+
             x = spacing;
             y = 10;
             width = 30;
