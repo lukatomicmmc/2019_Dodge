@@ -42,7 +42,7 @@
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.mnuStart = new System.Windows.Forms.ToolStripMenuItem();
             this.mnuStop = new System.Windows.Forms.ToolStripMenuItem();
-            this.lblScoreLevel = new System.Windows.Forms.Label();
+            this.ScoreLvlLbl = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -93,9 +93,9 @@
             this.lblScore.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.lblScore.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblScore.ForeColor = System.Drawing.Color.White;
-            this.lblScore.Location = new System.Drawing.Point(566, 340);
+            this.lblScore.Location = new System.Drawing.Point(513, 340);
             this.lblScore.Name = "lblScore";
-            this.lblScore.Size = new System.Drawing.Size(47, 30);
+            this.lblScore.Size = new System.Drawing.Size(100, 30);
             this.lblScore.TabIndex = 1;
             this.lblScore.Text = "0";
             this.lblScore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -180,17 +180,18 @@
             this.mnuStop.Text = "Stop";
             this.mnuStop.Click += new System.EventHandler(this.mnuStop_Click);
             // 
-            // lblScoreLevel
+            // ScoreLvlLbl
             // 
-            this.lblScoreLevel.BackColor = System.Drawing.Color.Silver;
-            this.lblScoreLevel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.lblScoreLevel.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblScoreLevel.ForeColor = System.Drawing.Color.White;
-            this.lblScoreLevel.Location = new System.Drawing.Point(513, 340);
-            this.lblScoreLevel.Name = "lblScoreLevel";
-            this.lblScoreLevel.Size = new System.Drawing.Size(54, 30);
-            this.lblScoreLevel.TabIndex = 2;
-            this.lblScoreLevel.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.ScoreLvlLbl.BackColor = System.Drawing.Color.Silver;
+            this.ScoreLvlLbl.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.ScoreLvlLbl.Font = new System.Drawing.Font("Impact", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ScoreLvlLbl.ForeColor = System.Drawing.Color.White;
+            this.ScoreLvlLbl.Location = new System.Drawing.Point(513, 381);
+            this.ScoreLvlLbl.Name = "ScoreLvlLbl";
+            this.ScoreLvlLbl.Size = new System.Drawing.Size(100, 30);
+            this.ScoreLvlLbl.TabIndex = 5;
+            this.ScoreLvlLbl.Text = "1";
+            this.ScoreLvlLbl.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // FrmDoge
             // 
@@ -198,7 +199,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(634, 461);
-            this.Controls.Add(this.lblScoreLevel);
+            this.Controls.Add(this.ScoreLvlLbl);
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtLives);
             this.Controls.Add(this.label2);
@@ -239,7 +240,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem mnuStart;
         private System.Windows.Forms.ToolStripMenuItem mnuStop;
-        private System.Windows.Forms.Label lblScoreLevel;
+        private System.Windows.Forms.Label ScoreLvlLbl;
     }
 }
 

@@ -36,7 +36,6 @@ namespace _2019_Dodge
         }
         public void movePlanet()
         {
-
             planetRec.Location = new Point(x, y);
             if (planetRec.Location.Y > 400)
             {
