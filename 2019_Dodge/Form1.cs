@@ -49,8 +49,8 @@ namespace _2019_Dodge
             for (int i = 0; i < 7; i++)
             {
                 // generate a random number from 5 to 20 and put it in rndmspeed
-                int rndmspeed = yspeed.Next(1, 30);
-                int speed = rndmspeed + scorelvl ;
+                int rndmspeed = yspeed.Next(5, 20);
+                int speed = rndmspeed + (scorelvl * 3);
                 planet[i].y += speed;
                 
                 //call the Planet class's drawPlanet method to draw the images
@@ -160,9 +160,10 @@ namespace _2019_Dodge
                 ScoreLvlLbl.Text = scorelvl.ToString();// display score
 
 
-                if (score > (scorelvl * 10))
+                if (score > (scorelvl * scorelvl * 10))
                 {
                     scorelvl += 1;
+                    lives += 1;
                 }
             }
             PnlGame.Invalidate();//makes the paint event fire to redraw the panel

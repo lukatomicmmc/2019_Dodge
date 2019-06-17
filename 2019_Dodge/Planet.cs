@@ -21,8 +21,8 @@ namespace _2019_Dodge
 
             x = spacing;
             y = 10;
-            width = 30;
-            height = 30;
+            width = 35;
+            height = 35;
             planetImage = Image.FromFile("planet1.png");
             planetRec = new Rectangle(x, y, width, height);
             
