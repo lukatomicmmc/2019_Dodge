@@ -11,6 +11,7 @@ namespace _2019_Dodge
     class Spaceship
     {
         // declare fields to use in the class
+        //test
 
         public int x, y, width, height;//variables for the rectangle
         public Image spaceship;//variable for the planet's image
